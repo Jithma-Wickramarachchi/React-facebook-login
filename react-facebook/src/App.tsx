@@ -10,10 +10,10 @@ function App() {
     <div>
       <div>
       <Grid container spacing={2}>
-        <Grid item sx={{m: 3 }}>
+        <Grid item xs={12} md={6}>
           <Head></Head>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6}>
           <Form/>
         </Grid>
       </Grid>
