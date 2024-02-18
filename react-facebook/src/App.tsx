@@ -1,13 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Button, Grid } from '@mui/material'
 import './App.css'
+import '@mui/material'
+import Head from './Head.tsx'
+import Form from './Form.tsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return(
+  return (
     <div>
+      <div>
+      <Grid container spacing={2}>
+        <Grid item sx={{m: 3 }}>
+          <Head></Head>
+        </Grid>
+        <Grid item xs={4}>
+          <Form/>
+        </Grid>
+      </Grid>
+      </div>
+      
     </div>
   )
 }
