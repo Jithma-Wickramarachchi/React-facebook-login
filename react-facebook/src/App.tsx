@@ -1,4 +1,4 @@
-import { Box, Button, Grid } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 import './App.css'
 import '@mui/material'
 import Head from './Head.tsx'
