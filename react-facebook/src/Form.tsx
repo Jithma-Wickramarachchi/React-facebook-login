@@ -14,7 +14,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function Copyright(props: any) {
   return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
+    <Typography variant="body2" color="text.secondary" align="center" sx={{mb:5}}>
        <b><a href="">Create a Page</a></b> for a celebrity, brand or business.
     </Typography>
   );
@@ -39,7 +39,6 @@ export default function SignUp() {
         <CssBaseline />
         <Box
           sx={{
-            marginTop: 8,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -80,13 +79,6 @@ export default function SignUp() {
             <Box sx={{ textAlign: 'center', mb : 2 }}><Link href="#" variant="body2">
                   Forgotten password ?
                 </Link></Box>
-            {/* <Grid container justifyContent="flex-center">
-              <Grid item>
-                <Link href="#" variant="body2">
-                  Forgotten password ?
-                </Link>
-              </Grid>
-            </Grid> */}
             <hr />
             <Button
               type="submit"
